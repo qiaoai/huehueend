@@ -10,6 +10,11 @@
       "StackName": "amplify-huehue-dev-172820",
       "StackId": "arn:aws:cloudformation:us-east-1:453205255858:stack/amplify-huehue-dev-172820/6f504640-29d8-11ed-86e1-12255b3d18ff",
       "AmplifyAppId": "d1ee6wapvyg8qx"
+    },
+    "categories": {
+      "auth": {
+        "huehue36a88bfd": {}
+      }
     }
   }
 }

@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "huehue",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-huehue-dev-172820-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/ff36752dfa8a8c9efe29ba56883c6647d15d2b8a"
+}

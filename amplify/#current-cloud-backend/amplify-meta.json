@@ -1,0 +1,42 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-huehue-dev-172820-authRole",
+      "UnauthRoleArn": "arn:aws:iam::453205255858:role/amplify-huehue-dev-172820-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::453205255858:role/amplify-huehue-dev-172820-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-huehue-dev-172820-deployment",
+      "UnauthRoleName": "amplify-huehue-dev-172820-unauthRole",
+      "StackName": "amplify-huehue-dev-172820",
+      "StackId": "arn:aws:cloudformation:us-east-1:453205255858:stack/amplify-huehue-dev-172820/6f504640-29d8-11ed-86e1-12255b3d18ff",
+      "AmplifyAppId": "d1ee6wapvyg8qx"
+    }
+  },
+  "api": {
+    "huehue": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "qraf443zjbdfzd5yrsxqunsoeq",
+        "GraphQLAPIEndpointOutput": "https://erxsatn4cvdgvkq3vhf6xizuei.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-syq4lnxuyfdhhc67lyhxoi6fey"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-huehue-dev-172820-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apihuehue"
+      },
+      "lastPushTimeStamp": "2022-09-01T09:37:59.091Z",
+      "lastPushDirHash": "HMoETym5UN0lNPZ8b1sCn+RCdXQ="
+    }
+  }
+}
